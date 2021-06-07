@@ -128,3 +128,13 @@ TW_SUPPORT_INPUT_1_2_HAPTICS := true
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
+
+#SHRP_Variables
+SHRP_DEVICE_CODE := raphael
+SHRP_PATH := device/xiaomi/raphael
+SHRP_MAINTAINER :=  Canary233
+SHRP_REC_TYPE :=  Treble
+SHRP_DEVICE_TYPE :=  SAR
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_EDL_MODE := 0
+SHRP_FLASH := 1 
